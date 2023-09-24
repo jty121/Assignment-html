@@ -168,3 +168,13 @@ header {
         }
     }
 }
+.logotype {
+    padding-top: 120px;
+    padding-bottom: 90px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

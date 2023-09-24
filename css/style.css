@@ -133,3 +133,13 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .showcase .container img {
   margin-right: -60px;
 }
+
+.logotype {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+.logotype .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
