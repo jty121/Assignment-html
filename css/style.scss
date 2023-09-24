@@ -30,6 +30,15 @@ html, body {
         color: #f8f8f8
     }
 }
+.btn.btn-transparent {
+    background-color: transparent;
+    border: 1px solid #191919;
+
+    &:hover {
+        background-color: #191919;
+        color: #f8f8f8
+    }
+}
 
 header {
     background-color: #F0EFE9;
@@ -123,6 +132,39 @@ header {
                 
          
             
+        }
+    }
+}
+.showcase {
+    background-color: #F0EFE9;
+
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .content {
+            align-items: center;
+
+            h1 {
+                font-family: 'DM Sans', sans-serif;
+                font-size: 86px;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            a {
+                margin: 20px 20px 0px 0px;
+                
+            }
+        }
+
+        img {
+            margin-right: -60px;
         }
     }
 }

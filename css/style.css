@@ -29,6 +29,15 @@ html, body {
   color: #f8f8f8;
 }
 
+.btn.btn-transparent {
+  background-color: transparent;
+  border: 1px solid #191919;
+}
+.btn.btn-transparent:hover {
+  background-color: #191919;
+  color: #f8f8f8;
+}
+
 header {
   background-color: #F0EFE9;
   padding: 15px;
@@ -97,4 +106,30 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   background-color: #191919;
   left: 40%;
   bottom: -3px;
+}
+
+.showcase {
+  background-color: #F0EFE9;
+}
+.showcase .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.showcase .container .content {
+  align-items: center;
+}
+.showcase .container .content h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 86px;
+  font-weight: bold;
+}
+.showcase .container .content p {
+  font-size: 20px;
+}
+.showcase .container .content a {
+  margin: 20px 20px 0px 0px;
+}
+.showcase .container img {
+  margin-right: -60px;
 }
