@@ -143,3 +143,51 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   justify-content: space-between;
   align-items: center;
 }
+
+.features {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+.features .container {
+  padding: 60px;
+}
+.features .container .features-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.features .container .features-content p {
+  font-size: 18px;
+  color: #F94D1C;
+}
+.features .container .features-content h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+}
+.features .container .features-content a {
+  display: block;
+  text-align: center;
+  margin-top: 15%;
+}
+.features .container .features-content .box-info {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 40px;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  margin-left: 10%;
+}
+.features .container .features-content .box-info .box img {
+  margin-bottom: 30px;
+}
+.features .container .features-content .box-info .box h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.features .container .features-content .box-info .box p {
+  color: #191919;
+}
