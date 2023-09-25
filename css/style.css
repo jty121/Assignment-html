@@ -7,6 +7,17 @@ html, body {
   color: #191919;
 }
 
+.style-h2 p {
+  font-size: 18px;
+  color: #F94D1C;
+  margin-bottom: 20px;
+}
+.style-h2 h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+}
+
 .btn {
   text-decoration: none;
   padding: 12px 25px;
@@ -36,6 +47,17 @@ html, body {
 .btn.btn-transparent:hover {
   background-color: #191919;
   color: #f8f8f8;
+}
+
+.btn.btn-black {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #f8f8f8;
+}
+.btn.btn-black:hover {
+  background-color: transparent;
+  border: 1px solid #191919;
+  color: #191919;
 }
 
 header {
@@ -190,4 +212,60 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 }
 .features .container .features-content .box-info .box p {
   color: #191919;
+}
+
+.about-company {
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+.about-company .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.about-company .container .column-left {
+  position: relative;
+}
+.about-company .container .column-left .founder {
+  background-color: #BEEBFF;
+  height: 180px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 16px;
+  position: absolute;
+  left: -60px;
+  bottom: 10%;
+}
+.about-company .container .column-left .founder .box {
+  display: flex;
+  align-items: center;
+}
+.about-company .container .column-left .founder .box h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.about-company .container .column-left .founder .box p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #F94D1C;
+  margin-left: 8px;
+  margin-bottom: 6px;
+}
+.about-company .container .column-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  height: 100%;
+  padding: 0 10%;
+}
+.about-company .container .column-right .buttons {
+  align-items: center;
+  margin-bottom: 30px;
 }
