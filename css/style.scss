@@ -531,3 +531,54 @@ header {
         }
     }
 }
+.choose-us {
+    padding-top: 120px;
+    position: relative;
+
+    .bg-color{
+        height: 420px;
+        width: 55%;
+        background-color: #F0EFE9;
+
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+
+        .left-column {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .style-h2 {
+
+            }
+
+            .info-box {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+
+           
+             }
+        }
+
+        .right-column {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            img {
+                margin-bottom: 60px;
+                z-index: 1;
+            }         
+        }
+    }   
+}

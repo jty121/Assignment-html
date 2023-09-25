@@ -421,3 +421,41 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .our-services .btn-browse a {
   margin-top: 30px;
 }
+
+.choose-us {
+  padding-top: 120px;
+  position: relative;
+}
+.choose-us .bg-color {
+  height: 420px;
+  width: 55%;
+  background-color: #F0EFE9;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.choose-us .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.choose-us .container .left-column {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.choose-us .container .left-column .info-box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.choose-us .container .right-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choose-us .container .right-column img {
+  margin-bottom: 60px;
+  z-index: 1;
+}
