@@ -428,7 +428,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 }
 .choose-us .bg-color {
   height: 420px;
-  width: 55%;
+  width: 50%;
   background-color: #F0EFE9;
   position: absolute;
   right: 0;
@@ -440,7 +440,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   align-items: center;
 }
 .choose-us .container .left-column {
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -456,6 +456,50 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   align-items: center;
 }
 .choose-us .container .right-column img {
-  margin-bottom: 60px;
+  margin-left: 40%;
   z-index: 1;
+}
+
+.project-and-case {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+.project-and-case .container .style-h2 {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.project-and-case .container .project-cases {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.project-and-case .container .project-cases article img {
+  width: 100%;
+  height: auto;
+}
+.project-and-case .container .project-cases article h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #DAD9D3;
+}
+.project-and-case .container .project-cases article a {
+  padding: 15px;
+  display: block;
+  text-align: right;
+  margin-right: 16px;
+  text-decoration: none;
+  color: #191919;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.project-and-case .container .project-cases article a i {
+  margin-left: 8px;
+}
+.project-and-case .container .btn-recent-projects {
+  text-align: center;
+  padding-top: 2rem;
 }
