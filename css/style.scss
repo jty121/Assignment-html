@@ -7,8 +7,6 @@ html, body {
     font-weight: 400;
     color: #191919;
 }
-
-
 .style-h2 {
 
     p {
@@ -23,7 +21,6 @@ html, body {
         font-weight: bold;
     }
 }
-
 .btn {
     text-decoration: none;
     padding: 12px 25px;
@@ -67,7 +64,6 @@ html, body {
     }
 
 }
-
 header {
     background-color: #F0EFE9;
     padding: 15px;
@@ -206,7 +202,6 @@ header {
         align-items: center;
     }
 }
-
 .features {
     padding-top: 90px;
     padding-bottom: 90px;
@@ -748,6 +743,79 @@ header {
            display: flex;
            justify-content: center;
            align-items: center;
+        }
+    }
+}
+.articles-news {
+    padding-top: 90px;
+
+    .container {
+        .content-header {
+            display: flex;
+            justify-content: space-between;
+
+            h2 {
+                font-family: 'DM Sans', sans-serif;
+                font-size: 45px;
+                font-weight: bold;
+                margin-bottom: 2.5rem;
+            }   
+        }
+
+        .articles {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 2rem;
+
+            .box-img {
+                width: 100%;
+                position: relative;  
+    
+                .box-color {
+                    display: inline-block;
+                    padding: 1rem;
+                    padding-bottom: 0.2rem;
+                    background-color:  #F0D082;
+    
+                    position: absolute;
+                    left: 1rem;
+                    top: 1rem;
+
+                    span {
+                        text-align: center;
+                        font-family: 'DM Sans', sans-serif;
+                        font-size: 22px;
+                        font-weight: bold;
+                    }
+
+                    p {
+                        text-align: center;
+                        margin: 0;
+                        margin-top: -0.5rem;
+                    }
+                }
+            }
+            .box-info {
+                margin-top: 1.5rem;
+
+                h4 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 22px;
+                    font-weight: bold;
+                    width: 80%;
+                    margin-top: 1.5rem;
+                }
+                p {
+                    margin-top: 1rem;
+                }
+            }    
+        }
+        .dots {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 4.3rem;
+            padding-bottom: 5.6rem;    
         }
     }
 }
