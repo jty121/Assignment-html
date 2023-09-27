@@ -503,3 +503,88 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   text-align: center;
   padding-top: 2rem;
 }
+
+.meet-us {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  background-color: #F0D082;
+}
+.meet-us .container .content .browse-team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.meet-us .container .content .browse-team .btn-browse {
+  border: 1px solid #191919;
+  border-radius: 25px;
+}
+.meet-us .container .content .members {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.meet-us .container .content .members .info-box h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.meet-us .container .content .members .info-box p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.meet-us .container .dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  border-bottom: 2px solid #191919;
+  padding-bottom: 5rem;
+}
+
+.testimonial {
+  padding-top: 120px;
+  background-color: #F0D082;
+}
+.testimonial .container {
+  max-width: 1520px;
+  background-color: #f8f8f8;
+}
+.testimonial .container .style-h2 {
+  text-align: center;
+  padding-top: 5.6rem;
+}
+.testimonial .container .reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 9.5rem;
+       column-gap: 9.5rem;
+  padding: 5.6rem;
+  padding-bottom: 4.8rem;
+}
+.testimonial .container .reviews .box-content img {
+  padding-bottom: 2rem;
+}
+.testimonial .container .reviews .box-content p {
+  padding-bottom: 2rem;
+}
+.testimonial .container .reviews .client {
+  display: flex;
+}
+.testimonial .container .reviews .client img {
+  margin-right: 1.25rem;
+}
+.testimonial .container .reviews .client h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.testimonial .container .reviews .client p {
+  color: #F94D1C;
+}
+.testimonial .container .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
