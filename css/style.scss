@@ -819,3 +819,28 @@ header {
         }
     }
 }
+.signup {
+    padding: 7.5rem;
+    background-color: #F0EFE9;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        form {
+            
+            input {
+                padding: 12px 30px;
+                border-radius: 25px;
+                outline: none;
+                border: none;
+                margin-right: 1rem;
+
+                &:hover {
+                    border: 1px solid #191919;
+                }
+            }
+        }
+    }
+}
