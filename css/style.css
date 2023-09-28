@@ -699,6 +699,12 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   padding-bottom: 30px;
   background-color: #191919;
   color: #f8f8f8;
+  position: relative;
+}
+.crito-footer .wavy-lines-right {
+  position: absolute;
+  right: 0;
+  bottom: 6.7rem;
 }
 .crito-footer .container .content {
   padding-bottom: 80px;

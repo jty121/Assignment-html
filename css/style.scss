@@ -805,6 +805,13 @@ header {
     padding-bottom: 30px;
     background-color: #191919;
     color:#f8f8f8;
+    position: relative;
+
+    .wavy-lines-right {
+        position: absolute;
+        right: 0;
+        bottom: 6.7rem;
+    }
     
     .container {       
         .content {  
