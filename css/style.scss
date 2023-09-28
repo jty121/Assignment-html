@@ -333,7 +333,14 @@ header {
     padding-top: 120px;
     padding-bottom: 90px;
     background-color: #F0EFE9;
+    position: relative;
 
+    .wavy-lines-right {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+    }
     .container {
 
         .style-h2 {
