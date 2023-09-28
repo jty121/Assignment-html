@@ -171,7 +171,8 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   padding-bottom: 90px;
 }
 .features .container {
-  padding: 60px;
+  max-width: 1520px;
+  padding: 110px;
 }
 .features .container .features-content {
   display: flex;
@@ -186,6 +187,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   font-family: "DM Sans", sans-serif;
   font-size: 45px;
   font-weight: bold;
+  max-width: 37.5rem;
 }
 .features .container .features-content a {
   display: block;
