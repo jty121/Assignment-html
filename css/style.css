@@ -132,6 +132,13 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 
 .showcase {
   background-color: #F0EFE9;
+  position: relative;
+  z-index: 0;
+}
+.showcase .wavy-lines-left {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
 }
 .showcase .container {
   display: flex;
@@ -158,7 +165,6 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 
 .logotype {
   padding-top: 120px;
-  padding-bottom: 90px;
 }
 .logotype .container {
   display: flex;
@@ -168,7 +174,6 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 
 .features {
   padding-top: 90px;
-  padding-bottom: 90px;
 }
 .features .container {
   max-width: 1520px;
@@ -218,16 +223,18 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 
 .about-company {
   display: flex;
+  justify-content: center;
   padding-top: 120px;
-  padding-bottom: 90px;
+  padding-bottom: 120px;
 }
 .about-company .container {
   display: flex;
-  justify-content: space-between;
-  align-items: start;
 }
 .about-company .container .column-left {
   position: relative;
+}
+.about-company .container .column-left img {
+  padding-left: 10%;
 }
 .about-company .container .column-left .founder {
   background-color: #BEEBFF;
@@ -239,7 +246,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   align-items: start;
   padding: 16px;
   position: absolute;
-  left: -60px;
+  left: -10px;
   bottom: 10%;
 }
 .about-company .container .column-left .founder .box {
@@ -265,6 +272,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   justify-content: space-between;
   align-items: start;
   height: 100%;
+  margin-left: 100px;
   padding: 0 10%;
 }
 .about-company .container .column-right .buttons {
@@ -285,7 +293,6 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   grid-template-rows: auto;
   -moz-column-gap: 30px;
        column-gap: 30px;
-  padding: 30px;
 }
 .our-services .container .service-boxes .business-box {
   background-color: #f8f8f8;
@@ -421,7 +428,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   align-items: center;
 }
 .our-services .btn-browse a {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .choose-us {
