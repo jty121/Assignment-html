@@ -681,7 +681,7 @@ header {
             justify-content: center;
             align-items: center;
             padding-top: 3rem;
-            border-bottom: 2px solid #191919;
+            border-bottom: 2px solid rgb(25, 25, 25, 0.10);
             padding-bottom: 5rem;
             
         }
@@ -693,7 +693,7 @@ header {
 
     .container {
         max-width: 1520px;
-        background-color: #f8f8f8;
+        background-color: #ffff;
 
         .style-h2 {
             text-align: center;
@@ -843,4 +843,81 @@ header {
             }
         }
     }
+}
+.crito-footer {
+    padding-top: 120px;
+    padding-bottom: 30px;
+    background-color: #191919;
+    color:#f8f8f8;
+    
+
+    .container {
+         
+        .content {  
+            padding-bottom: 80px;
+
+            .footer-boxes {             
+                display: grid;
+                grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+                gap: 5rem;
+
+                .box-logotype {
+    
+                    img {
+                        margin-bottom: 1.2rem;
+                    }
+
+                    p{
+                        color: #707070;
+                    }
+                }
+
+                .box {
+                    padding-top: 1.2rem;
+                    font-size: 500;
+                    justify-content: space-between;
+
+                    h4{
+                        font-family: 'DM Sans', sans-serif;
+                        font-size: 22px;
+                        font-weight: bold;
+                        margin-bottom: 2.5rem;
+                    }
+
+                    p {
+                        color: #707070;
+                    }
+
+                }
+            }
+        }
+        
+    }
+
+    .copyrights-socialmedia {
+        border-top: 2px solid #707070;
+        padding-top: 50px;
+        padding-bottom: 0; 
+        
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+                
+            .copyrights {
+                color: #707070;
+            }
+
+            .social-media {
+                
+                a {
+                    color: #ffff;
+                    margin: 8px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+
 }

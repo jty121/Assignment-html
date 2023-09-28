@@ -539,7 +539,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   justify-content: center;
   align-items: center;
   padding-top: 3rem;
-  border-bottom: 2px solid #191919;
+  border-bottom: 2px solid rgba(25, 25, 25, 0.1);
   padding-bottom: 5rem;
 }
 
@@ -549,7 +549,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 }
 .testimonial .container {
   max-width: 1520px;
-  background-color: #f8f8f8;
+  background-color: white;
 }
 .testimonial .container .style-h2 {
   text-align: center;
@@ -671,4 +671,56 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 }
 .signup .container form input:hover {
   border: 1px solid #191919;
+}
+
+.crito-footer {
+  padding-top: 120px;
+  padding-bottom: 30px;
+  background-color: #191919;
+  color: #f8f8f8;
+}
+.crito-footer .container .content {
+  padding-bottom: 80px;
+}
+.crito-footer .container .content .footer-boxes {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  gap: 5rem;
+}
+.crito-footer .container .content .footer-boxes .box-logotype img {
+  margin-bottom: 1.2rem;
+}
+.crito-footer .container .content .footer-boxes .box-logotype p {
+  color: #707070;
+}
+.crito-footer .container .content .footer-boxes .box {
+  padding-top: 1.2rem;
+  font-size: 500;
+  justify-content: space-between;
+}
+.crito-footer .container .content .footer-boxes .box h4 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+.crito-footer .container .content .footer-boxes .box p {
+  color: #707070;
+}
+.crito-footer .copyrights-socialmedia {
+  border-top: 2px solid #707070;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+.crito-footer .copyrights-socialmedia .container {
+  display: flex;
+  justify-content: space-between;
+}
+.crito-footer .copyrights-socialmedia .container .copyrights {
+  color: #707070;
+}
+.crito-footer .copyrights-socialmedia .container .social-media a {
+  color: white;
+  margin: 8px;
+  font-size: 18px;
 }
