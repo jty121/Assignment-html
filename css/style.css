@@ -277,7 +277,6 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   padding: 0 10%;
 }
 .about-company .container .column-right .buttons {
-  align-items: center;
   margin-bottom: 30px;
 }
 .our-services {
@@ -325,12 +324,13 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .our-services .container .service-boxes .business-box p {
   margin-bottom: 50px;
 }
-.our-services .container .service-boxes .business-box a {
-  display: block;
+.our-services .container .service-boxes .business-box .arrow {
   text-align: right;
+}
+.our-services .container .service-boxes .business-box .arrow a {
   color: #191919;
 }
-.our-services .container .service-boxes .business-box a i {
+.our-services .container .service-boxes .business-box .arrow a i {
   font-size: 2em;
 }
 .our-services .container .service-boxes .startup-box {
@@ -357,12 +357,13 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .our-services .container .service-boxes .startup-box p {
   margin-bottom: 50px;
 }
-.our-services .container .service-boxes .startup-box a {
-  display: block;
+.our-services .container .service-boxes .startup-box .arrow {
   text-align: right;
+}
+.our-services .container .service-boxes .startup-box .arrow a {
   color: #191919;
 }
-.our-services .container .service-boxes .startup-box a i {
+.our-services .container .service-boxes .startup-box .arrow a i {
   font-size: 2em;
 }
 .our-services .container .service-boxes .financial-box {
@@ -389,12 +390,13 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .our-services .container .service-boxes .financial-box p {
   margin-bottom: 50px;
 }
-.our-services .container .service-boxes .financial-box a {
-  display: block;
+.our-services .container .service-boxes .financial-box .arrow {
   text-align: right;
+}
+.our-services .container .service-boxes .financial-box .arrow a {
   color: #191919;
 }
-.our-services .container .service-boxes .financial-box a i {
+.our-services .container .service-boxes .financial-box .arrow a i {
   font-size: 2em;
 }
 .our-services .container .service-boxes .risk-box {
@@ -421,12 +423,13 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .our-services .container .service-boxes .risk-box p {
   margin-bottom: 50px;
 }
-.our-services .container .service-boxes .risk-box a {
-  display: block;
+.our-services .container .service-boxes .risk-box .arrow {
   text-align: right;
+}
+.our-services .container .service-boxes .risk-box .arrow a {
   color: #191919;
 }
-.our-services .container .service-boxes .risk-box a i {
+.our-services .container .service-boxes .risk-box .arrow a i {
   font-size: 2em;
 }
 .our-services .btn-browse {

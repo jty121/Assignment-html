@@ -318,12 +318,13 @@ header {
             padding: 0 10%;
 
             .buttons {
-                align-items: center;
                 margin-bottom: 30px;
                 
                 a {
+                    
                     .btn-video {
-                                               
+                        
+                                             
                     }           
                 }            
             }
@@ -380,13 +381,15 @@ header {
                     margin-bottom: 50px;
                 }
 // fixa till knappen, ska inte gå att trycka utanför ikonen
-                a {
-                    display: block;
+                .arrow {
                     text-align: right;
-                    color: #191919;
 
-                    i {
-                        font-size: 2em;
+                    a {
+                        color: #191919;
+    
+                        i {
+                            font-size: 2em;
+                        }
                     }
                 }
             }
@@ -415,13 +418,15 @@ header {
                     margin-bottom: 50px;
                 }
 // fixa till knappen, ska inte gå att trycka utanför ikonen
-                a {
-                    display: block;
+               .arrow {
                     text-align: right;
-                    color: #191919;
-
-                    i {
-                        font-size: 2em;
+                    
+                    a {
+                        color: #191919;
+    
+                        i {
+                            font-size: 2em;
+                        }
                     }
                 }
             }
@@ -450,13 +455,15 @@ header {
                     margin-bottom: 50px;
                 }
 // fixa till knappen, ska inte gå att trycka utanför ikonen
-                a {
-                    display: block;
+               .arrow {
                     text-align: right;
-                    color: #191919;
-
-                    i {
-                        font-size: 2em;
+                    
+                    a {
+                        color: #191919;
+    
+                        i {
+                            font-size: 2em;
+                        }
                     }
                 }
             }
@@ -485,13 +492,15 @@ header {
                 margin-bottom: 50px;
                }
 // fixa till knappen, ska inte gå att trycka utanför ikonen
-              a {
-                    display: block;
+                .arrow {
                     text-align: right;
-                    color: #191919;
+        
+                    a {
+                        color: #191919;
 
-                    i {
-                        font-size: 2em;
+                        i {
+                            font-size: 2em;
+                        }
                     }
                 }
             }
