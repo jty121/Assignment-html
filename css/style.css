@@ -223,62 +223,77 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 }
 
 .about-company {
-  display: flex;
-  justify-content: center;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 90px;
 }
-.about-company .container {
-  display: flex;
-}
-.about-company .container .column-left {
+.about-company .container .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "box-left style-h2" "box-left text-box" "box-left text-box" "box-left buttons";
   position: relative;
 }
-.about-company .container .column-left img {
-  padding-left: 10%;
+.about-company .container .content .box-left {
+  grid-area: box-left;
+  width: 100%;
 }
-.about-company .container .column-left .founder {
-  background-color: #BEEBFF;
-  height: 180px;
-  width: 360px;
+.about-company .container .content .style-h2 {
+  grid-area: style-h2;
+  padding: 0 4rem;
+}
+.about-company .container .content .text-box {
+  grid-area: text-box;
+  padding: 0 4rem;
+}
+.about-company .container .content .buttons {
+  grid-area: buttons;
   display: flex;
-  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 0 4rem;
+}
+.about-company .container .content .buttons .btn-video {
+  display: flex;
   justify-content: center;
-  align-items: start;
-  padding: 16px;
-  position: absolute;
-  left: -10px;
-  bottom: 10%;
-}
-.about-company .container .column-left .founder .box {
-  display: flex;
   align-items: center;
 }
-.about-company .container .column-left .founder .box h5 {
+.about-company .container .content .buttons .btn-video i {
+  font-size: 45px;
+  font-weight: 100;
+  margin-right: 16px;
+}
+.about-company .container .content .buttons .btn-video i:hover {
+  font-weight: 700;
+  color: #c2c1be;
+  transition: 0.3s ease-in-out;
+}
+.about-company .container .content .founder {
+  background-color: #BEEBFF;
+  width: 368px;
+  height: 180px;
+  padding: 40px 20px;
+  position: absolute;
+  left: -55px;
+  bottom: 40px;
+}
+.about-company .container .content .founder .box-blue {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.about-company .container .content .founder .box-blue h4 {
   font-family: "DM Sans", sans-serif;
   font-size: 20px;
   font-weight: bold;
+  margin-right: 8px;
 }
-.about-company .container .column-left .founder .box p {
+.about-company .container .content .founder .box-blue p {
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: bold;
   color: #F94D1C;
-  margin-left: 8px;
-  margin-bottom: 6px;
+  margin: 0 0 6px;
 }
-.about-company .container .column-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: start;
-  height: 100%;
-  margin-left: 100px;
-  padding: 0 10%;
-}
-.about-company .container .column-right .buttons {
-  margin-bottom: 30px;
-}
+
 .our-services {
   padding-top: 120px;
   padding-bottom: 90px;

@@ -256,77 +256,94 @@ header {
     }
 }
 .about-company {
-    display: flex;
-    justify-content: center;
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 90px;
 
     .container {
-        display: flex;
+        
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: 
+                                "box-left style-h2"
+                                "box-left text-box"
+                                "box-left text-box"
+                                "box-left buttons";
 
-        .column-left {
             position: relative;
 
-            img {
-                padding-left: 10%;
+            .box-left {
+                grid-area: box-left;
+                width: 100%;
+            }
+
+            .style-h2 {
+                grid-area: style-h2;
+                padding:0 4rem;
+            }
+
+            .text-box {
+                grid-area: text-box;
+                padding:0 4rem;
+            }
+
+            .buttons {
+                grid-area: buttons;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                padding:0 4rem;
+
+                .btn-video {
+                    
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    i {
+                        font-size: 45px;
+                        font-weight: 100;
+                        margin-right: 16px;
+
+                        &:hover {
+                            font-weight: 700;
+                            color: #c2c1be;
+                            transition: 0.3s ease-in-out;
+                        }
+                    }
+                }
             }
 
             .founder {
                 background-color: #BEEBFF;
+                width: 368px;
                 height: 180px;
-                width: 360px;
-
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: start;
-                padding: 16px;
+                padding: 40px 20px;
 
                 position: absolute;
-                left: -10px;
-                bottom: 10%;
-                
-                .box {
+                left: -55px;
+                bottom: 40px;
+
+                .box-blue {
                     display: flex;
+                    justify-content: start;
                     align-items: center;
-                    
-                    h5 {
+
+                    h4 {
                         font-family: 'DM Sans', sans-serif;
                         font-size: 20px;
                         font-weight: bold;
+                        margin-right: 8px;
                     }
 
                     p {
                         font-family: 'DM Sans', sans-serif;
                         font-size: 16px;
                         font-weight: bold;
-                        color:#F94D1C;
-                        margin-left: 8px;
-                        margin-bottom: 6px;
+                        color: #F94D1C;
+                        margin: 0 0 6px;
                     }
                 }
-            }
-        }
-        .column-right {
-            
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: start;
-            height: 100%;
-            margin-left: 100px;
-            padding: 0 10%;
-
-            .buttons {
-                margin-bottom: 30px;
-                
-                a {
-                    
-                    .btn-video {
-                        
-                                             
-                    }           
-                }            
             }
         }
     }
