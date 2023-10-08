@@ -207,3 +207,68 @@ header {
         }
     }
 }
+.info-boxes {
+    padding-top: 7.5rem;
+    padding-bottom: 5.6rem;
+
+    .container {
+
+        .boxes {
+            display: grid; 
+            grid-template-columns: 1fr;
+            gap: 30px;
+
+            @media (min-width: 992px) {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+            .box-location {
+                border: 2px solid #DAD9D3;
+                display: flex;
+                justify-content: center;
+                padding: 3rem;
+
+                i {
+                    font-size: 30px;
+                    margin-right: 1rem;
+                }
+
+                h4 {
+                    margin-bottom: 1rem;
+                }
+            }
+
+            .box-phone{
+                border: 2px solid #DAD9D3;
+                display: flex;
+                justify-content: center;
+                padding: 3rem;
+
+                i {
+                    font-size: 30px;
+                    margin-right: 1rem;
+                }
+
+                h4 {
+                    margin-bottom: 1rem;
+                }
+            }
+
+            .box-email {
+                border: 2px solid #DAD9D3;
+                display: flex;
+                justify-content: center;
+                padding: 3rem;
+
+                i {
+                    font-size: 30px;
+                    margin-right: 1rem;
+                }
+
+                h4 {
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+}
