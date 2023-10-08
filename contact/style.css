@@ -291,9 +291,15 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   position: relative;
 }
 .crito-footer .wavy-lines-right {
-  position: absolute;
-  right: 0;
-  bottom: 6.7rem;
+  display: none;
+}
+@media (min-width: 776px) {
+  .crito-footer .wavy-lines-right {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 6.7rem;
+  }
 }
 .crito-footer .container .content {
   padding-bottom: 5rem;
@@ -348,5 +354,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   font-size: 18px;
 }
 .crito-footer .copyrights-socialmedia .container .social-media a:hover {
-  border-bottom: 2px solid #ffffff;
+  color: #8d8d8d;
+  border-bottom: 3px solid #ffffff;
+  transition: ease-in-out 0.2s;
 }

@@ -983,5 +983,7 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   font-size: 18px;
 }
 .crito-footer .copyrights-socialmedia .container .social-media a:hover {
-  border-bottom: 2px solid #ffffff;
+  color: #8d8d8d;
+  border-bottom: 3px solid #ffffff;
+  transition: ease-in-out 0.2s;
 }

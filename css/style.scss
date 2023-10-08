@@ -83,7 +83,6 @@ header {
         align-items: center;
         gap: 60px;
 
-
         .menu-bar {
             font-size: 35px;
 
@@ -91,7 +90,6 @@ header {
                 display: none;
             }
         }
-
         .menu {
             flex: 1;
             display: none;
@@ -211,7 +209,7 @@ header {
                 font-size: 20px;
                 }
             a {
-                margin: 20px 20px 0px 0px;              
+                margin: 20px 20px 0px 0px;             
             }
         }
         img { 
@@ -1072,7 +1070,9 @@ header {
                     font-size: 18px;
 
                     &:hover {
-                        border-bottom: 2px solid #ffffff;
+                        color: #8d8d8d;
+                        border-bottom: 3px solid #ffffff;
+                        transition: ease-in-out 0.2s;
                     }
                 }
             }
