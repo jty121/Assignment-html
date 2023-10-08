@@ -276,9 +276,11 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
   display: block;
 }
 
-.map .container img {
+.map {
+  margin-top: 5.6rem;
+}
+.map .img {
   width: 100%;
-  height: 100%;
 }
 
 .crito-footer {
