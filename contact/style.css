@@ -275,3 +275,8 @@ header .container .menu .main-menu nav a.active::after, header .container .menu 
 .send-message .container .users .button a {
   display: block;
 }
+
+.map .container img {
+  width: 100%;
+  height: 100%;
+}
